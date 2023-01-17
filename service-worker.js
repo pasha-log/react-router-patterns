@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-router-patterns-color-factory/precache-manifest.d016d5a0b288713e8d8bc36202ab0941.js"
+  "/react-router-patterns-dog-finder/precache-manifest.08957483e89badc12718cd428de49e18.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-router-patterns-color-factory/index.html", {
+workbox.routing.registerNavigationRoute("/react-router-patterns-dog-finder/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
