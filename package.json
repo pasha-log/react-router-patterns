@@ -2,6 +2,7 @@
   "name": "my-app-name",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pasha-log.github.io/react-router-patterns-color-factory",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "react": "^16.6.0",
@@ -11,6 +12,8 @@
     "react-scripts": "2.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,6 +39,8 @@
   "bugs": {
     "url": "https://github.com/pasha-log/react-router-patterns/issues"
   },
-  "homepage": "https://github.com/pasha-log/react-router-patterns#readme",
-  "description": ""
+  "description": "<img src='./public/dog-finder.png' alt=''>",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
