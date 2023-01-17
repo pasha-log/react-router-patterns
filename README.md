@@ -4,7 +4,7 @@
 
 ## Description: 
 
-[Try me](https://pasha-log.github.io/dogs)
+[Try me](https://pasha-log.github.io/react-router-patterns-dog-finder/)
 
 An application created with React Router's BrowserRouter, Switch, and Redirect
 
