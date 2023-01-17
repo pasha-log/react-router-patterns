@@ -1,8 +1,8 @@
 {
   "name": "my-app-name",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://pasha-log.github.io/react-router-patterns-color-factory",
+  "private": false,
+  "homepage": "https://pasha-log.github.io/react-router-patterns-dog-finder",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "react": "^16.6.0",
